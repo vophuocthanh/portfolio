@@ -7,7 +7,7 @@ const DashboardLayout = (props: { children: React.ReactNode }) => {
       <header>
         <Header />
       </header>
-      <main className='max-w-6xl mx-auto my-6'>{props.children}</main>
+      <main className='max-w-6xl mx-auto'>{props.children}</main>
     </div>
   );
 };

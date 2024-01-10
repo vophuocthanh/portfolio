@@ -1,3 +1,4 @@
+'use client';
 import { cn } from '@/lib/utils';
 import { useInView } from 'react-intersection-observer';
 interface Props {
