@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import { ModeToggle } from '../mode-toggle';
+import { MobilePage } from '../mobile-slidebar';
 
 export default function Header() {
+  const isProPlan = false;
   return (
     <div className='w-full border-b'>
       <div className='py-6 max-w-6xl mx-auto flex justify-between items-center '>
@@ -12,7 +14,7 @@ export default function Header() {
           Thanh Dev
         </Link>
         <div className='flex gap-4 items-center'>
-          <div className='text-2xl flex gap-4 font-medium'>
+          <div className='text-2xl sm:flex hidden gap-4 font-medium'>
             <Link href='/blog' className='hover:text-green-400 hover:underline'>
               Blogs
             </Link>
@@ -22,6 +24,9 @@ export default function Header() {
             >
               Projects
             </Link>
+          </div>
+          <div className='sm:hidden'>
+            <MobilePage />
           </div>
           <hr className='w-px h-8 bg-gray-300' />
           <ModeToggle />

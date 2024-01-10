@@ -55,12 +55,12 @@ export const Banner = () => {
 
   return (
     <section className='max-w-6xl mx-auto'>
-      <SectionInViewUp className='flex justify-center items-center my-24'>
-        <div className='w-3/5 space-y-4'>
-          <span className='font-bold tracking-wider px-4 py-2 bg-gradient-to-r from-pink-500 via-purple-700 to-transparent border border-white bg-opacity-50 text-white text-2xl rounded inline-block'>
+      <SectionInViewUp className='sm:flex flex-col sm:flex-row justify-center items-center my-10 sm:my-24'>
+        <div className='sm:w-3/5 space-y-4'>
+          <span className='font-bold tracking-wider px-4 py-2 bg-gradient-to-r from-pink-500 via-purple-700 to-transparent border border-white bg-opacity-50 text-white sm:text-2xl text-xl rounded inline-block'>
             Welcome to my Portfolio
           </span>
-          <h1 className='my-4 text-5xl font-bold'>
+          <h1 className='my-4 sm:text-5xl text-3xl font-bold'>
             {`Hi! I'm Thanh Dev`}{' '}
             <span
               className='txt-rotate'
@@ -72,7 +72,7 @@ export const Banner = () => {
               </span>
             </span>
           </h1>
-          <p className='w-[66%] text-2xl font-medium'>
+          <p className='sm:w-[66%] text-2xl font-medium'>
             I develop user interfaces and web applications
           </p>
           <div className='flex gap-4 items-center'>
@@ -106,7 +106,7 @@ export const Banner = () => {
             </Link>
           </div>
         </div>
-        <div className='w-[30rem]'>
+        <div className='sm:w-[30rem]'>
           <Image src={headerImg} alt='Header Img' />
         </div>
       </SectionInViewUp>

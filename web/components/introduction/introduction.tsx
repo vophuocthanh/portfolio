@@ -9,13 +9,13 @@ export default function Introduction() {
       <h1 className='text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-red-500 to-yellow-300'>
         Introduction
       </h1>
-      <span className='text-6xl font-bold'>Overview...</span>
-      <p className='w-3/5'>
+      <span className='sm:text-6xl text-2xl font-bold'>Overview...</span>
+      <p className='sm:w-3/5 w-full'>
         I am 20 years old this year, I am studying and working in Da Nang city.
         I love programming, especially creating websites with good user
         interfaces, improving user experience, meeting user needs.
       </p>
-      <div className='flex gap-10 items-center'>
+      <div className='flex sm:flex-row sm:gap-10 gap-8 flex-col items-center'>
         <SectionInViewRight className='w-64 h-80 rounded border p-4 shadow-md space-y-8'>
           <Image
             src={FrontendImg}
