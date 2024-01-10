@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  favicon: '/web/public/logo.png',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

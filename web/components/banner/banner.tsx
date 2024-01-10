@@ -106,7 +106,7 @@ export const Banner = () => {
             </Link>
           </div>
         </div>
-        <div className='sm:w-[30rem]'>
+        <div className='sm:w-[30rem] mt-16 sm:mt-0'>
           <Image src={headerImg} alt='Header Img' />
         </div>
       </SectionInViewUp>
