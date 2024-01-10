@@ -1,3 +1,9 @@
-export default function footer() {
-  return <div>footer</div>;
+export default function Footer() {
+  return (
+    <footer className='max-w-6xl mx-auto'>
+      <span className='flex py-4'>
+        © Built with ❤️ by Vo Phuoc Thanh - Fullstack Developer.
+      </span>
+    </footer>
+  );
 }

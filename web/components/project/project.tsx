@@ -5,7 +5,7 @@ import one from '../../public/project-1.jpg';
 
 export default function Project() {
   return (
-    <div className='max-w-6xl mx-auto my-24'>
+    <div className='max-w-6xl mx-auto mt-24'>
       <div className='w-full flex items-center justify-between'>
         <h1 className='text-xl font-bold'>Project</h1>
         <div className='flex gap-2 items-center hover:text-green-400'>
@@ -15,7 +15,7 @@ export default function Project() {
           <MoveRight className='text-xl' />
         </div>
       </div>
-      <div className='w-full flex items-center mt-10 gap-8 flex-wrap justify-center'>
+      <div className='w-full flex items-center mt-10 gap-8 border-b pb-20 flex-wrap justify-center'>
         <Link
           href='https://github.com/vophuocthanh/monkey-blogging'
           className='w-[20rem] h-[24rem] rounded-bl-md rounded-br-md space-y-4 shadow-md hover:scale-105 border'
