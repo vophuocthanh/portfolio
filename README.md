@@ -1,6 +1,4 @@
-# Project case 3: Frontend.
-
-## Class: CS455I
+# Portfolio
 
 ## Clone project:
 
