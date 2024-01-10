@@ -20,8 +20,8 @@ pnpm run dev
 
 ```
 cd web
-pnpm install
-pnpm run dev
+yarn install
+yarn run dev
 ```
 
 ## Libraries:
