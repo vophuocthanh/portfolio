@@ -2,17 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import headerImg from '../../public/banner.svg';
-import TrackVisibility from 'react-on-screen';
 import Image from 'next/image';
 import SectionInViewUp from '../SectionInViewUp';
-import {
-  Facebook,
-  Github,
-  Instagram,
-  Linkedin,
-  Twitter,
-  Youtube,
-} from 'lucide-react';
+import { Facebook, Github, Linkedin, Youtube } from 'lucide-react';
 import Link from 'next/link';
 
 export const Banner = () => {
