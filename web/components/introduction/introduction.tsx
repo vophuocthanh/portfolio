@@ -16,23 +16,23 @@ export default function Introduction() {
         interfaces, improving user experience, meeting user needs.
       </p>
       <div className='flex gap-10 items-center'>
-        <SectionInViewRight className='w-64 h-80 rounded bg-gray-100 p-4 space-y-8'>
+        <SectionInViewRight className='w-64 h-80 rounded border p-4 shadow-md space-y-8'>
           <Image
             src={FrontendImg}
             alt='banner'
             className='w-40 h-40 mx-auto mt-2'
           />
-          <span className='flex justify-center text-xl font-bold'>
+          <span className='flex justify-center text-xl font-bold text-center'>
             Frontend <br /> Developer
           </span>
         </SectionInViewRight>
-        <SectionInViewRight className='w-64 h-80 rounded bg-gray-100 p-4 space-y-8'>
+        <SectionInViewRight className='w-64 h-80 rounded border shadow-md p-4 space-y-8'>
           <Image
             src={BackendImg}
             alt='banner'
             className='w-40 h-40 mx-auto mt-2'
           />
-          <span className='flex justify-center text-xl font-bold'>
+          <span className='flex justify-center text-xl font-bold text-center'>
             Backend <br /> Developer
           </span>
         </SectionInViewRight>
