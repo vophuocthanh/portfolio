@@ -6,7 +6,7 @@ import Project from '@/components/project/project';
 
 export default function Home() {
   return (
-    <main className='w-full h-full'>
+    <main className='w-full h-full sm:px-0 px-2'>
       <Header />
       <Banner />
       <Introduction />
