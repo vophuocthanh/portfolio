@@ -55,7 +55,7 @@ export const Banner = () => {
 
   return (
     <section className='max-w-6xl mx-auto'>
-      <SectionInViewUp className='flex justify-center items-center mt-24'>
+      <SectionInViewUp className='flex justify-center items-center my-24'>
         <div className='w-3/5 space-y-4'>
           <span className='font-bold tracking-wider px-4 py-2 bg-gradient-to-r from-pink-500 via-purple-700 to-transparent border border-white bg-opacity-50 text-white text-2xl rounded inline-block'>
             Welcome to my Portfolio
