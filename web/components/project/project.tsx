@@ -15,7 +15,7 @@ export default function Project() {
           <MoveRight className='text-xl' />
         </div>
       </div>
-      <div className='w-full flex items-center mt-10 gap-8 border-b pb-20 flex-wrap justify-center'>
+      <div className='w-full flex items-center mt-10 gap-8 border-b border-gray-800 pb-20 flex-wrap justify-center'>
         <Link
           href='https://github.com/vophuocthanh/monkey-blogging'
           className='w-[20rem] h-[24rem] rounded-bl-md rounded-br-md space-y-4 shadow-md hover:scale-105 border'
