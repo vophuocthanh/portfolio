@@ -72,7 +72,7 @@ export const Banner = () => {
               </span>
             </span>
           </h1>
-          <p className='sm:w-[66%] text-2xl font-medium'>
+          <p className='sm:w-[67%] text-2xl font-medium'>
             I develop user interfaces and web applications
           </p>
           <div className='flex gap-4 items-center'>
