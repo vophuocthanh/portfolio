@@ -24,6 +24,13 @@ export default function Header() {
             >
               Projects
             </Link>
+            <Link
+              href='https://drive.google.com/file/d/1-Ux8VpgPaRae_smxnRu0eMjgemret16N/view?usp=sharing'
+              target='_blank'
+              className='hover:text-green-400 hover:underline'
+            >
+              MyCV
+            </Link>
           </div>
           <div className='sm:hidden'>
             <MobilePage />
