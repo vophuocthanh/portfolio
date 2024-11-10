@@ -13,7 +13,7 @@ export default function Project() {
     <div className='max-w-6xl mx-auto mt-24'>
       <div className='w-full flex items-center justify-between'>
         <h1 className='text-xl font-bold'>Project</h1>
-        <div className='flex gap-2 items-center hover:text-green-400'>
+        <div className='flex gap-2 items-center hover:text-[#972AC1]'>
           <Link href='/project' className='text-xl font-bold'>
             View all Project
           </Link>

@@ -19,15 +19,12 @@ export function MobilePage({ className }: Props) {
             <AlignRight />
           </SheetTrigger>
           <SheetContent side={side} className='flex flex-col gap-10 pt-10 w-56'>
-            <Link
-              href='/blog'
-              className='hover:text-green-400 hover:underline text-3xl font-bold'
-            >
+            <Link href='/blog' className='hover:text-[#972AC1] hover:underline text-3xl font-bold'>
               Blogs
             </Link>
             <Link
               href='/project'
-              className='hover:text-green-400 hover:underline text-3xl font-bold'
+              className='hover:text-[#972AC1] hover:underline text-3xl font-bold'
             >
               Projects
             </Link>
