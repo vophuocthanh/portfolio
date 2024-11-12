@@ -68,6 +68,7 @@ export default function TechSkill() {
           autoplay={{
             delay: 1000,
           }}
+          speed={1000}
           loop={true}
         >
           {slides.map((slide, index) => (
@@ -75,9 +76,10 @@ export default function TechSkill() {
               <Image
                 src={slide.content}
                 alt={`Slide ${index + 1}`}
-                width={800}
-                height={200}
-                className='w-[800px] h-28 object-contain'
+                width={400}
+                height={100}
+                className='w-[400px] h-28 object-contain'
+                loading='lazy'
               />
             </SwiperSlide>
           ))}
